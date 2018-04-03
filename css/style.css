@@ -33,7 +33,7 @@ body{
 	float: left;
 	width: 480px;
 	height: 480px;
-	background: url(../images/bg1.png);
+	background: url(../assets/bg1.png);
 }
 .bottom-layout{
 	width: 1920px;
@@ -44,26 +44,26 @@ body{
 	display: inline-block;
 	width: 480px;
 	height: 480px;
-	background: url(../images/bg2.png);
+	background: url(../assets/bg2.png);
 }
 .block3{
 	float: left;
 	display: inline-block;
 	width: 480px;
 	height: 480px;
-	background: url(../images/bg3.png);
+	background: url(../assets/bg3.png);
 }
 .block4{
 	float: left;
 	width: 480px;
 	height: 480px;
-	background: url(../images/bg4.png);
+	background: url(../assets/bg4.png);
 }
 .block5{
 	float: left;
 	width: 480px;
 	height: 480px;
-	background: url(../images/bg5.png)
+	background: url(../assets/bg5.png)
 }
 .bottom{
 	width: 100%;
