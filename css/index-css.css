@@ -3,7 +3,7 @@
 body{
 	margin: 0 auto;
 	padding: 0;
-	background: url(images/background.png);
+	background: url(background.png);
 }
 .top{
 	width: 1920px;
@@ -19,7 +19,7 @@ body{
 }
 .top p{
 	margin: 0 auto;
-	color: white;
+	color: #fff;
 	font-family: Futura Std Condensed;
 	font-size: 70px;
 	line-height: 73px;
@@ -40,7 +40,6 @@ body{
 	height: 480px;
 }
 .block2{
-	/********************标签自带间距，加浮动去掉间距*****************************/
 	float: left;
 	display: inline-block;
 	width: 480px;
@@ -92,5 +91,5 @@ body{
 .contact .vertical-bar{
 	position: absolute;
 	left: 168px;
-	color: white;
+	color: #fff;
 }
