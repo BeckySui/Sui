@@ -1,0 +1,282 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	font-family:Source Han Sans CN;
+	color:#333;
+	font-weight:300;
+}
+body{
+	overflow-x:hidden;
+}
+/* nav */
+.nav{
+	width:1903px;
+	height:60px;
+	background:#f9f9f9;
+}
+.nav_box{
+	width:990px;
+	height:60px;
+	margin:auto;
+	position:relative;
+}
+ul{
+	font-size:13px;
+	font-family:Source Han Sans CN;
+	line-height:60px;
+	margin-left:286px;
+	cursor:pointer;
+}
+li{
+	list-style:none;
+	float:left;
+	margin-left:45px;
+}
+.soufeel_logo{
+	width:104px;
+	height:36px;
+	float:left;
+	margin:12px 0;
+	cursor:pointer;
+}
+.border{
+	width:150px;
+	height:24px;
+	float:right;
+	margin:18px 0;
+	background:#1cd5f7;
+	border:none;
+	border-radius:11px;
+	padding-left:10px;
+	outline: 0;
+}
+input[type="search"]::-webkit-search-cancel-button{
+    display: none;
+}
+.search_click{
+	float:right;
+	border:none;
+	background:none;
+	position:absolute;
+	top:23px;
+	right:10px;
+	cursor:pointer;
+	outline: 0;
+}
+/* banner */
+.banner{
+	height:720px;
+	background:url(../assets/soufeel_banner_bg_tmall.png) no-repeat;
+	position:relative;
+}
+.banner_content{
+	margin-left:917px;
+	position:relative;
+}
+.banner_jewelry1{
+	position:absolute;
+}
+.banner_jewelry2{
+	position:absolute;
+	left:351.5px;
+}
+.banner_jewelry3{
+	position:absolute;
+	left:721.5px;
+}
+.banner_text{
+	padding-top:144px;
+}
+.banner_necklace_text{
+	margin-left:30px;
+}
+.banner_p_price{
+	font-size:29px;
+	line-height:17px;
+}
+.banner_p_price span{
+	font-size:22px;
+}
+.banner_p_name{
+	font-size:22px;
+	margin-left:21px;
+}
+.banner_p_buy{
+	font-size:17px;
+	color:#00a6c9;
+	cursor:pointer;
+	margin-left:21px;
+}
+.banner_necklace_img{
+	position:absolute;
+	top:98px;
+	z-index:-1;
+}
+.banner_slogan{
+	width:810px;
+	text-align:center;
+}
+.banner_slogan img{
+	margin-top:525px;
+}
+.banner_slogan p{
+	font-size:30px;
+	margin-top:5px;
+}
+/* follow */
+.follow{
+	width:1903px;
+	height:82px;
+	font-size:14px;
+	text-align:center;
+	padding-top:18px;
+	box-shadow:0 3px 10px -3px rgba(0,0,0,0.2);
+	position:relative;
+	z-index:9;
+}
+.follow img{
+	cursor:pointer;
+}
+.follow span{
+	color:#00a6c9;
+}
+/* main_sales */
+.main_sales{
+	height:500px;
+	position:relative;
+}
+/* left */
+.main_sales .left{
+	height:500px;
+	text-align:center;
+}
+.left_content_one{
+	position:absolute;
+	left:128px;
+	top:88px;
+}
+.left_content_one:nth-child(2){
+	position:absolute;
+	left:340.5px;
+}
+.left_content_one:nth-child(3){
+	position:absolute;
+	left:538.7px;
+}
+.left_content_one:nth-child(4){
+	position:absolute;
+	left:736.7px;
+}
+.left_content_one .name{
+	font-size:14px;
+}
+.left_content_one .price{
+	font-size:20px;
+}
+.left_content_one .buy{
+	font-size:17px;
+	color:#00a6c9;
+	cursor:pointer;
+}
+.left_more{
+	position:absolute;
+	left:476.5px;
+	bottom:80px;
+	font-size:17px;
+	color:#00a6c9;
+	cursor:pointer;
+}
+/* right */
+.main_sales .right{
+	width:868px;
+	height:500px;
+	background:url(../assets/soufeel_right_bg_tmall.png);
+	position:absolute;
+	left:1035px;
+	top:0;
+}
+.main_sales .right .text{
+	text-align:center;
+	padding-top:200px;
+	padding-left:100px;
+}
+.main_sales .right_name{
+	font-size:14px;
+}
+.main_sales .right_price{
+	font-size:30px;
+	font-weight:normal;
+}
+.main_sales .right_buy{
+	color:#00a6c9;
+	font-size:17px;
+	cursor:pointer;
+}
+.main_sales .right_more{
+	color:#00a6c9;
+	font-size:17px;
+	cursor:pointer;
+	margin-top:30px;
+}
+/* sales */
+.sales{
+	width:1903px;
+	height:475.75px;
+}
+.sales_content{
+	width:475.75px;
+	height:475.75px;
+	box-shadow:0px 0px 60px rgba(0,0,0,0.1) inset;
+	float:left;
+	text-align:center;
+}
+.sales_content img{
+	margin-top:40px;
+}
+.sales_content  .jewelry2{
+	margin-top:84px;
+}
+.sales_content  .jewelry3{
+	margin-top:147.5px;
+	margin-bottom:63.5px;
+}
+.sales_content  .jewelry4{
+	margin-top:131.5px;
+	margin-bottom:47.5px;
+}
+/* 3(text) */
+.sales_content .text{
+	margin-top:10px;
+	line-height:24px;
+}
+.sales_content p{
+	font-size:14px;	
+}
+.sales_content .price{
+	font-size:17px;
+}
+.sales_content .buy{
+	color:#00a6c9;
+	cursor:pointer;
+}
+.sales_content .more{
+	color:#00a6c9;
+	cursor:pointer;
+	margin-top:37px;
+}
+/* bottom */
+.bottom{
+	width:1903px;
+	height:222px;
+	text-align:center;
+	line-height:33px;
+	margin-top:106px;
+	margin-bottom:18px;
+}
+.bottom .p_one{
+	font-size:30px;
+}
+.bottom .p_two{
+	font-size:14px;
+}
